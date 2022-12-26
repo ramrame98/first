@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f1f5f8;
+  justify-content: center;
+}
+.movielist {
+  background-color: #f1f5f8;
+  padding: 30px 40px;
+}
+.movie {
+  position: relative;
+  background: #fff;
+  border-radius: 3px;
+  padding: 10px;
+  display: flex;
+  width: 600px;
+  height: 200px;
+}
+.movie img {
+  position: absolute;
+  top: -20px;
+  width: 100px;
+  height: 160px;
+}
+.movie .word {
+  padding-left: 200px;
+}
+.movie .word p,
+h4 {
+  padding: 0px;
+  margin: 0px;
+}
+.movie p {
+  font-size: 12px;
+}
+.title {
+  font-weight: 500;
+}
